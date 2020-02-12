@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */; };
 		B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */; };
 		B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */; };
 		B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD9023F4975500FE54F9 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.release.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.release.xcconfig"; sourceTree = "<group>"; };
 		B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackmindJobiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		B6AEDDAA23F4975700FE54F9 /* BlackmindJobiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackmindJobiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackmindJobiOSUITests.swift; sourceTree = "<group>"; };
 		B6AEDDB023F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.debug.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackmindJobiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112DD8841C62FDCD9521F17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */,
+				4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B6AEDD8023F4975500FE54F9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				B6AEDDA223F4975700FE54F9 /* BlackmindJobiOSTests */,
 				B6AEDDAD23F4975700FE54F9 /* BlackmindJobiOSUITests */,
 				B6AEDD8A23F4975500FE54F9 /* Products */,
+				112DD8841C62FDCD9521F17A /* Pods */,
+				BEE070E7E213E3853F286875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,14 @@
 			path = BlackmindJobiOSUITests;
 			sourceTree = "<group>";
 		};
+		BEE070E7E213E3853F286875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6AEDDB323F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOS" */;
 			buildPhases = (
+				FEE1510751C37A20FE6B2CF0 /* [CP] Check Pods Manifest.lock */,
 				B6AEDD8523F4975500FE54F9 /* Sources */,
 				B6AEDD8623F4975500FE54F9 /* Frameworks */,
 				B6AEDD8723F4975500FE54F9 /* Resources */,
+				65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE1510751C37A20FE6B2CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackmindJobiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6AEDD8523F4975500FE54F9 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		B6AEDDB423F4975700FE54F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +520,7 @@
 		};
 		B6AEDDB523F4975700FE54F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
