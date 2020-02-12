@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */; };
+		B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */; };
+		B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD9023F4975500FE54F9 /* ViewController.swift */; };
+		B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9223F4975500FE54F9 /* Main.storyboard */; };
+		B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9523F4975700FE54F9 /* Assets.xcassets */; };
+		B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */; };
+		B6AEDDA423F4975700FE54F9 /* BlackmindJobiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDA323F4975700FE54F9 /* BlackmindJobiOSTests.swift */; };
+		B6AEDDAF23F4975700FE54F9 /* BlackmindJobiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6AEDDA023F4975700FE54F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AEDD8123F4975500FE54F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AEDD8823F4975500FE54F9;
+			remoteInfo = BlackmindJobiOS;
+		};
+		B6AEDDAB23F4975700FE54F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AEDD8123F4975500FE54F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6AEDD8823F4975500FE54F9;
+			remoteInfo = BlackmindJobiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackmindJobiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B6AEDD9023F4975500FE54F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6AEDD9323F4975500FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6AEDD9523F4975700FE54F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AEDD9823F4975700FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6AEDD9A23F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AEDD9F23F4975700FE54F9 /* BlackmindJobiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackmindJobiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AEDDA323F4975700FE54F9 /* BlackmindJobiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackmindJobiOSTests.swift; sourceTree = "<group>"; };
+		B6AEDDA523F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6AEDDAA23F4975700FE54F9 /* BlackmindJobiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackmindJobiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackmindJobiOSUITests.swift; sourceTree = "<group>"; };
+		B6AEDDB023F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AEDD8623F4975500FE54F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDD9C23F4975700FE54F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDDA723F4975700FE54F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6AEDD8023F4975500FE54F9 = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD8B23F4975500FE54F9 /* BlackmindJobiOS */,
+				B6AEDDA223F4975700FE54F9 /* BlackmindJobiOSTests */,
+				B6AEDDAD23F4975700FE54F9 /* BlackmindJobiOSUITests */,
+				B6AEDD8A23F4975500FE54F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AEDD8A23F4975500FE54F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */,
+				B6AEDD9F23F4975700FE54F9 /* BlackmindJobiOSTests.xctest */,
+				B6AEDDAA23F4975700FE54F9 /* BlackmindJobiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AEDD8B23F4975500FE54F9 /* BlackmindJobiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
+				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
+				B6AEDD9023F4975500FE54F9 /* ViewController.swift */,
+				B6AEDD9223F4975500FE54F9 /* Main.storyboard */,
+				B6AEDD9523F4975700FE54F9 /* Assets.xcassets */,
+				B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */,
+				B6AEDD9A23F4975700FE54F9 /* Info.plist */,
+			);
+			path = BlackmindJobiOS;
+			sourceTree = "<group>";
+		};
+		B6AEDDA223F4975700FE54F9 /* BlackmindJobiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDDA323F4975700FE54F9 /* BlackmindJobiOSTests.swift */,
+				B6AEDDA523F4975700FE54F9 /* Info.plist */,
+			);
+			path = BlackmindJobiOSTests;
+			sourceTree = "<group>";
+		};
+		B6AEDDAD23F4975700FE54F9 /* BlackmindJobiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */,
+				B6AEDDB023F4975700FE54F9 /* Info.plist */,
+			);
+			path = BlackmindJobiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AEDD8823F4975500FE54F9 /* BlackmindJobiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AEDDB323F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOS" */;
+			buildPhases = (
+				B6AEDD8523F4975500FE54F9 /* Sources */,
+				B6AEDD8623F4975500FE54F9 /* Frameworks */,
+				B6AEDD8723F4975500FE54F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackmindJobiOS;
+			productName = BlackmindJobiOS;
+			productReference = B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6AEDD9E23F4975700FE54F9 /* BlackmindJobiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AEDDB623F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOSTests" */;
+			buildPhases = (
+				B6AEDD9B23F4975700FE54F9 /* Sources */,
+				B6AEDD9C23F4975700FE54F9 /* Frameworks */,
+				B6AEDD9D23F4975700FE54F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AEDDA123F4975700FE54F9 /* PBXTargetDependency */,
+			);
+			name = BlackmindJobiOSTests;
+			productName = BlackmindJobiOSTests;
+			productReference = B6AEDD9F23F4975700FE54F9 /* BlackmindJobiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6AEDDA923F4975700FE54F9 /* BlackmindJobiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AEDDB923F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOSUITests" */;
+			buildPhases = (
+				B6AEDDA623F4975700FE54F9 /* Sources */,
+				B6AEDDA723F4975700FE54F9 /* Frameworks */,
+				B6AEDDA823F4975700FE54F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6AEDDAC23F4975700FE54F9 /* PBXTargetDependency */,
+			);
+			name = BlackmindJobiOSUITests;
+			productName = BlackmindJobiOSUITests;
+			productReference = B6AEDDAA23F4975700FE54F9 /* BlackmindJobiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AEDD8123F4975500FE54F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Freddy Silva";
+				TargetAttributes = {
+					B6AEDD8823F4975500FE54F9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B6AEDD9E23F4975700FE54F9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6AEDD8823F4975500FE54F9;
+					};
+					B6AEDDA923F4975700FE54F9 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B6AEDD8823F4975500FE54F9;
+					};
+				};
+			};
+			buildConfigurationList = B6AEDD8423F4975500FE54F9 /* Build configuration list for PBXProject "BlackmindJobiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6AEDD8023F4975500FE54F9;
+			productRefGroup = B6AEDD8A23F4975500FE54F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AEDD8823F4975500FE54F9 /* BlackmindJobiOS */,
+				B6AEDD9E23F4975700FE54F9 /* BlackmindJobiOSTests */,
+				B6AEDDA923F4975700FE54F9 /* BlackmindJobiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AEDD8723F4975500FE54F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */,
+				B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */,
+				B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDD9D23F4975700FE54F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDDA823F4975700FE54F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AEDD8523F4975500FE54F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */,
+				B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */,
+				B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDD9B23F4975700FE54F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AEDDA423F4975700FE54F9 /* BlackmindJobiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AEDDA623F4975700FE54F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AEDDAF23F4975700FE54F9 /* BlackmindJobiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6AEDDA123F4975700FE54F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AEDD8823F4975500FE54F9 /* BlackmindJobiOS */;
+			targetProxy = B6AEDDA023F4975700FE54F9 /* PBXContainerItemProxy */;
+		};
+		B6AEDDAC23F4975700FE54F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6AEDD8823F4975500FE54F9 /* BlackmindJobiOS */;
+			targetProxy = B6AEDDAB23F4975700FE54F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6AEDD9223F4975500FE54F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AEDD9323F4975500FE54F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6AEDD9823F4975700FE54F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AEDDB123F4975700FE54F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6AEDDB223F4975700FE54F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AEDDB423F4975700FE54F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AEDDB523F4975700FE54F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6AEDDB723F4975700FE54F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackmindJobiOS.app/BlackmindJobiOS";
+			};
+			name = Debug;
+		};
+		B6AEDDB823F4975700FE54F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackmindJobiOS.app/BlackmindJobiOS";
+			};
+			name = Release;
+		};
+		B6AEDDBA23F4975700FE54F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackmindJobiOS;
+			};
+			name = Debug;
+		};
+		B6AEDDBB23F4975700FE54F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XY5DSHVNFX;
+				INFOPLIST_FILE = BlackmindJobiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlackmindJobiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AEDD8423F4975500FE54F9 /* Build configuration list for PBXProject "BlackmindJobiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AEDDB123F4975700FE54F9 /* Debug */,
+				B6AEDDB223F4975700FE54F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AEDDB323F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AEDDB423F4975700FE54F9 /* Debug */,
+				B6AEDDB523F4975700FE54F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AEDDB623F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AEDDB723F4975700FE54F9 /* Debug */,
+				B6AEDDB823F4975700FE54F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AEDDB923F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AEDDBA23F4975700FE54F9 /* Debug */,
+				B6AEDDBB23F4975700FE54F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AEDD8123F4975500FE54F9 /* Project object */;
+}
