@@ -17,6 +17,15 @@ class DetailTaxiViewController: UIViewController {
     
     // MARK: - Outlets
     @IBOutlet weak var mapView: GMSMapView!
+    @IBOutlet weak var containerView: UIView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var vinLabel: UILabel!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var coordinatesLabel: UILabel!
+    @IBOutlet weak var interiorLabel: UILabel!
+    @IBOutlet weak var exteriorLabel: UILabel!
+    @IBOutlet weak var fuelLabel: UILabel!
+    @IBOutlet weak var engineTypeLabel: UILabel!
     
     private var viewModel: DetailTaxiViewProtocol?
     
@@ -36,6 +45,7 @@ class DetailTaxiViewController: UIViewController {
         super.viewDidLoad()
 
         settingGoogleMap()
+        settingContainerView()
         
         viewModel?.delegate = self
         viewModel?.fetchInfoPlacemark()
@@ -45,6 +55,10 @@ class DetailTaxiViewController: UIViewController {
     private func settingGoogleMap() {
         mapView.delegate = self
         marker.map = mapView
+    }
+    
+    private func settingContainerView() {
+        containerView.layer.cornerRadius = 10
     }
     
     private func setCameraMapView(with coordinate: CLLocationCoordinate2D) {
@@ -63,7 +77,16 @@ extension DetailTaxiViewController: DetailTaxiViewControllerProtocol {
         let coordinate = CLLocationCoordinate2D(latitude: taxi.latitude, longitude: taxi.longitude)
         setCameraMapView(with: coordinate)
         
+        nameLabel.text = taxi.name
+        vinLabel.text = taxi.vin
+        addressLabel.text = taxi.address
+        coordinatesLabel.text = "\(taxi.latitude), \(taxi.longitude)"
+        interiorLabel.text = taxi.interior
+        exteriorLabel.text = taxi.exterior
+        fuelLabel.text = "\(String(describing: taxi.fuel ?? 0))"
+        engineTypeLabel.text = taxi.engineType
         
+        marker.title = taxi.name
     }
 }
 

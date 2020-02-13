@@ -69,6 +69,10 @@ extension MainTaxiViewController: UICollectionViewDataSource, UICollectionViewDe
         return CGSize(width: collectionView.frame.size.width, height: TaxiCollectionViewCell.cellHeight)
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         Router.presentDetailTaxiVC(from: self, with: placemarks[indexPath.row])
     }
