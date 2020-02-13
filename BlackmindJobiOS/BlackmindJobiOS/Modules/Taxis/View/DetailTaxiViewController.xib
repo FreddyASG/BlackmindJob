@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailTaxiViewController" customModule="BlackmindJobiOS" customModuleProvider="target">
             <connections>
+                <outlet property="mapView" destination="dZq-FB-JzO" id="8uJ-pE-2VW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,7 +17,29 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZq-FB-JzO" customClass="GMSMapView">
+                    <rect key="frame" x="32" y="76" width="350" height="522"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="30m-iA-kQA">
+                    <rect key="frame" x="32" y="630" width="350" height="200"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="0YO-bL-ZjZ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.1576071009389671" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="30m-iA-kQA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="12V-1e-9DL"/>
+                <constraint firstItem="dZq-FB-JzO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="Cgj-Tt-Mzt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="30m-iA-kQA" secondAttribute="trailing" constant="32" id="MOu-qG-9mt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="dZq-FB-JzO" secondAttribute="trailing" constant="32" id="PHs-ud-LGN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="30m-iA-kQA" secondAttribute="bottom" constant="32" id="PkE-Ez-m8I"/>
+                <constraint firstItem="30m-iA-kQA" firstAttribute="top" secondItem="dZq-FB-JzO" secondAttribute="bottom" constant="32" id="WU2-Cq-9xJ"/>
+                <constraint firstItem="dZq-FB-JzO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="pfW-em-zcY"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="133" y="123"/>
         </view>

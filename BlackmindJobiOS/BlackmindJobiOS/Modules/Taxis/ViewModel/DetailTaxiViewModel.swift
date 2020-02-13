@@ -10,6 +10,7 @@ import Foundation
 
 protocol DetailTaxiViewProtocol: class {
     var delegate: DetailTaxiViewControllerProtocol? { get set }
+    func fetchInfoPlacemark()
 }
 
 class DetailTaxiViewModel: DetailTaxiViewProtocol {
@@ -21,4 +22,7 @@ class DetailTaxiViewModel: DetailTaxiViewProtocol {
         self.taxi = taxi
     }
     
+    func fetchInfoPlacemark() {
+        delegate?.retrieveInfoPlacemark(taxi: taxi)
+    }
 }
