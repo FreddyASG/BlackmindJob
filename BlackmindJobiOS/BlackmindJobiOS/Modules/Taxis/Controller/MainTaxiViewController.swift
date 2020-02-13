@@ -68,6 +68,10 @@ extension MainTaxiViewController: UICollectionViewDataSource, UICollectionViewDe
 
         return CGSize(width: collectionView.frame.size.width, height: TaxiCollectionViewCell.cellHeight)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        Router.presentDetailTaxiVC(from: self, with: placemarks[indexPath.row])
+    }
 }
 
 // MARK: - MainTaxiViewControllerProtocol
