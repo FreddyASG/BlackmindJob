@@ -26,7 +26,7 @@ class MainTaxiViewModel: MainTaxiViewProtocol {
         taxiService.fetchTaxiInfo { [weak self] (result) in
             do {
                 let taxiInfo = try result.get()
-                self?.delegate?.retrieveTaxi(info: taxiInfo)
+                self?.delegate?.retrieveInfo(placemarks: taxiInfo.placemarks)
             } catch {
                 self?.delegate?.fetchTaxiFail()
             }
