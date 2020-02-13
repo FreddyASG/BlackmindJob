@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Taxi: Decodable, Encodable {
+    var address: String?
+    var coordinates: [Double]?
+    var engineType: String?
+    var exterior: String?
+    var fuel: Int?
+    var interior: String?
+    var name: String?
+    var vin: String?
+}

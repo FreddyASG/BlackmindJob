@@ -9,5 +9,5 @@
 import Foundation
 
 class TaxiResponse: Decodable, Encodable {
-    
+    var placemarks: [Taxi]?
 }

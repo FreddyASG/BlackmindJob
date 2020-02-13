@@ -28,7 +28,8 @@ class MainTaxiViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        viewModel?.delegate = self
+        viewModel?.fetchTaxiInfo()
     }
 
 }
