@@ -19,8 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         let mainTaxiViewController = MainTaxiViewController(viewModel: MainTaxiViewModel())
 
-//        let navigation = UINavigationController(rootViewController: mainTaxiViewController)
-        window.rootViewController = mainTaxiViewController
+        let navigation = UINavigationController(rootViewController: mainTaxiViewController)
+        window.rootViewController = navigation
 
         self.window = window
         window.makeKeyAndVisible()

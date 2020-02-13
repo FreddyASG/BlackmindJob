@@ -344,6 +344,7 @@
 				B6AEDD8623F4975500FE54F9 /* Frameworks */,
 				B6AEDD8723F4975500FE54F9 /* Resources */,
 				65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */,
+				469AAD06F07572BF81C05125 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -464,6 +465,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		469AAD06F07572BF81C05125 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
