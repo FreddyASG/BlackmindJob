@@ -7,3 +7,29 @@
 //
 
 import Foundation
+
+protocol MainTaxiViewProtocol: class {
+    var delegate: MainTaxiViewControllerProtocol? { get set }
+    func fetchTaxiInfo()
+}
+
+class MainTaxiViewModel: MainTaxiViewProtocol {
+    weak var delegate: MainTaxiViewControllerProtocol?
+    
+    private var taxiService: TaxiService
+
+    init() {
+        taxiService = .init()
+    }
+    
+    func fetchTaxiInfo() {
+        taxiService.fetchTaxiInfo { [weak self] (result) in
+            do {
+                let taxiInfo = try result.get()
+                self?.delegate?.retrieveTaxi(info: taxiInfo)
+            } catch {
+                self?.delegate?.fetchTaxiFail()
+            }
+        }
+    }
+}

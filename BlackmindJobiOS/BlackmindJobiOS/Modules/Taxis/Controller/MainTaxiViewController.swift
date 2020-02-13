@@ -8,23 +8,36 @@
 
 import UIKit
 
-class MainTaxiViewController: UIViewController {
+protocol MainTaxiViewControllerProtocol: class {
+    func retrieveTaxi(info: TaxiResponse)
+    func fetchTaxiFail()
+}
 
+class MainTaxiViewController: UIViewController {
+    
+    // MARK: - Outlets
+    
+    private var viewModel: MainTaxiViewProtocol?
+    
+    convenience init(viewModel: MainTaxiViewProtocol) {
+        self.init()
+        self.viewModel = viewModel
+    }
+
+    // MARK: - ViewController Life's Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
 
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+// MARK: - MainTaxiViewControllerProtocol
+extension MainTaxiViewController: MainTaxiViewControllerProtocol {
+    func retrieveTaxi(info: TaxiResponse) {
     }
-    */
-
+    
+    func fetchTaxiFail() {
+    }
 }

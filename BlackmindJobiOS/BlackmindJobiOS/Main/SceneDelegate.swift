@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        let mainTaxiViewController = MainTaxiViewController()
+        let mainTaxiViewController = MainTaxiViewController(viewModel: MainTaxiViewModel())
 
 //        let navigation = UINavigationController(rootViewController: mainTaxiViewController)
         window.rootViewController = mainTaxiViewController
