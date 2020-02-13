@@ -3,18 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */; };
+		B61F172023F4F76900D9F484 /* TaxiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F171F23F4F76900D9F484 /* TaxiService.swift */; };
+		B61F172323F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */; };
+		B61F172923F504F700D9F484 /* TaxiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */; };
+		B61F172A23F504F700D9F484 /* TaxiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */; };
 		B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */; };
 		B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */; };
-		B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD9023F4975500FE54F9 /* ViewController.swift */; };
 		B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9223F4975500FE54F9 /* Main.storyboard */; };
 		B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9523F4975700FE54F9 /* Assets.xcassets */; };
 		B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */; };
 		B6AEDDA423F4975700FE54F9 /* BlackmindJobiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDA323F4975700FE54F9 /* BlackmindJobiOSTests.swift */; };
 		B6AEDDAF23F4975700FE54F9 /* BlackmindJobiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */; };
+		B6BE000A23F561B0009F6BDF /* DetailTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE000823F561B0009F6BDF /* DetailTaxiViewController.swift */; };
+		B6BE000B23F561B0009F6BDF /* DetailTaxiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6BE000923F561B0009F6BDF /* DetailTaxiViewController.xib */; };
+		B6BE000D23F561D2009F6BDF /* DetailTaxiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE000C23F561D2009F6BDF /* DetailTaxiViewModel.swift */; };
+		B6BE001123F568AD009F6BDF /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE001023F568AD009F6BDF /* Router.swift */; };
+		B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */; };
+		B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */; };
+		B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */; };
+		B6EE3CD023F4DBE600BFD103 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */; };
+		B6EE3CDA23F4DD5700BFD103 /* MainTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */; };
+		B6EE3CDB23F4DD5700BFD103 /* MainTaxiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */; };
+		B6EE3CDD23F4DDA300BFD103 /* TaxiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */; };
+		B6EE3CE023F4DDC400BFD103 /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */; };
+		B6EE3CE223F4DDEE00BFD103 /* MainTaxiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.release.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.release.xcconfig"; sourceTree = "<group>"; };
+		B61F171F23F4F76900D9F484 /* TaxiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiService.swift; sourceTree = "<group>"; };
+		B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+BlackmindJob.swift"; sourceTree = "<group>"; };
+		B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiCollectionViewCell.swift; sourceTree = "<group>"; };
+		B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaxiCollectionViewCell.xib; sourceTree = "<group>"; };
 		B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackmindJobiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6AEDD9023F4975500FE54F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6AEDD9323F4975500FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6AEDD9523F4975700FE54F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AEDD9823F4975700FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,21 @@
 		B6AEDDAA23F4975700FE54F9 /* BlackmindJobiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackmindJobiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackmindJobiOSUITests.swift; sourceTree = "<group>"; };
 		B6AEDDB023F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BE000823F561B0009F6BDF /* DetailTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaxiViewController.swift; sourceTree = "<group>"; };
+		B6BE000923F561B0009F6BDF /* DetailTaxiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTaxiViewController.xib; sourceTree = "<group>"; };
+		B6BE000C23F561D2009F6BDF /* DetailTaxiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTaxiViewModel.swift; sourceTree = "<group>"; };
+		B6BE001023F568AD009F6BDF /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.debug.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionServiceBJ.swift; sourceTree = "<group>"; };
+		B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsBJ.swift; sourceTree = "<group>"; };
+		B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequestBJ.swift; sourceTree = "<group>"; };
+		B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaxiViewController.swift; sourceTree = "<group>"; };
+		B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTaxiViewController.xib; sourceTree = "<group>"; };
+		B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiResponse.swift; sourceTree = "<group>"; };
+		B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi.swift; sourceTree = "<group>"; };
+		B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaxiViewModel.swift; sourceTree = "<group>"; };
+		C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackmindJobiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +113,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112DD8841C62FDCD9521F17A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */,
+				4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B61F171E23F4F73700D9F484 /* Taxi */ = {
+			isa = PBXGroup;
+			children = (
+				B61F171F23F4F76900D9F484 /* TaxiService.swift */,
+			);
+			path = Taxi;
+			sourceTree = "<group>";
+		};
+		B61F172123F4F8C600D9F484 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B61F172623F504A400D9F484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */,
+				B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B6AEDD8023F4975500FE54F9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +154,8 @@
 				B6AEDDA223F4975700FE54F9 /* BlackmindJobiOSTests */,
 				B6AEDDAD23F4975700FE54F9 /* BlackmindJobiOSUITests */,
 				B6AEDD8A23F4975500FE54F9 /* Products */,
+				112DD8841C62FDCD9521F17A /* Pods */,
+				BEE070E7E213E3853F286875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +172,10 @@
 		B6AEDD8B23F4975500FE54F9 /* BlackmindJobiOS */ = {
 			isa = PBXGroup;
 			children = (
-				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
-				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
-				B6AEDD9023F4975500FE54F9 /* ViewController.swift */,
-				B6AEDD9223F4975500FE54F9 /* Main.storyboard */,
-				B6AEDD9523F4975700FE54F9 /* Assets.xcassets */,
-				B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */,
+				B6EE3CC223F4CD9300BFD103 /* Foundation */,
+				B6EE3CCD23F4DB9300BFD103 /* Resources */,
+				B6EE3CD123F4DC4A00BFD103 /* Main */,
+				B6EE3CD223F4DC7B00BFD103 /* Modules */,
 				B6AEDD9A23F4975700FE54F9 /* Info.plist */,
 			);
 			path = BlackmindJobiOS;
@@ -128,6 +199,151 @@
 			path = BlackmindJobiOSUITests;
 			sourceTree = "<group>";
 		};
+		B6EE3CC223F4CD9300BFD103 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B61F172123F4F8C600D9F484 /* Extensions */,
+				B6EE3CCA23F4D6A800BFD103 /* Model */,
+				B6EE3CC423F4CDB600BFD103 /* Settings */,
+				B6EE3CC323F4CDA900BFD103 /* Services */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B6EE3CC323F4CDA900BFD103 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B61F171E23F4F73700D9F484 /* Taxi */,
+				B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B6EE3CC423F4CDB600BFD103 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CC523F4CDC500BFD103 /* Constants */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B6EE3CC523F4CDC500BFD103 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B6EE3CCA23F4D6A800BFD103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */,
+				B6BE001023F568AD009F6BDF /* Router.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6EE3CCD23F4DB9300BFD103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CCE23F4DBAB00BFD103 /* UI */,
+				B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6EE3CCE23F4DBAB00BFD103 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD9523F4975700FE54F9 /* Assets.xcassets */,
+				B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */,
+				B6AEDD9223F4975500FE54F9 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B6EE3CD123F4DC4A00BFD103 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
+				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B6EE3CD223F4DC7B00BFD103 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD323F4DCE300BFD103 /* Taxis */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B6EE3CD323F4DCE300BFD103 /* Taxis */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD723F4DD3200BFD103 /* Model */,
+				B6EE3CD623F4DD2300BFD103 /* ViewModel */,
+				B6EE3CD523F4DD1000BFD103 /* View */,
+				B6EE3CD423F4DCFC00BFD103 /* Controller */,
+			);
+			path = Taxis;
+			sourceTree = "<group>";
+		};
+		B6EE3CD423F4DCFC00BFD103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */,
+				B6BE000823F561B0009F6BDF /* DetailTaxiViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6EE3CD523F4DD1000BFD103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B61F172623F504A400D9F484 /* Resources */,
+				B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */,
+				B6BE000923F561B0009F6BDF /* DetailTaxiViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6EE3CD623F4DD2300BFD103 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */,
+				B6BE000C23F561D2009F6BDF /* DetailTaxiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6EE3CD723F4DD3200BFD103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */,
+				B6EE3CDE23F4DDA900BFD103 /* Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6EE3CDE23F4DDA900BFD103 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		BEE070E7E213E3853F286875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +351,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6AEDDB323F4975700FE54F9 /* Build configuration list for PBXNativeTarget "BlackmindJobiOS" */;
 			buildPhases = (
+				FEE1510751C37A20FE6B2CF0 /* [CP] Check Pods Manifest.lock */,
 				B6AEDD8523F4975500FE54F9 /* Sources */,
 				B6AEDD8623F4975500FE54F9 /* Frameworks */,
 				B6AEDD8723F4975500FE54F9 /* Resources */,
+				65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */,
+				469AAD06F07572BF81C05125 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +451,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61F172A23F504F700D9F484 /* TaxiCollectionViewCell.xib in Resources */,
+				B6BE000B23F561B0009F6BDF /* DetailTaxiViewController.xib in Resources */,
 				B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */,
+				B6EE3CD023F4DBE600BFD103 /* Localizable.strings in Resources */,
 				B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */,
 				B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */,
+				B6EE3CDB23F4DD5700BFD103 /* MainTaxiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +477,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		469AAD06F07572BF81C05125 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AC729A90877FF840EBA332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE1510751C37A20FE6B2CF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackmindJobiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6AEDD8523F4975500FE54F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */,
+				B6EE3CDD23F4DDA300BFD103 /* TaxiResponse.swift in Sources */,
+				B6BE000D23F561D2009F6BDF /* DetailTaxiViewModel.swift in Sources */,
+				B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */,
 				B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */,
+				B6EE3CE023F4DDC400BFD103 /* Taxi.swift in Sources */,
+				B61F172923F504F700D9F484 /* TaxiCollectionViewCell.swift in Sources */,
 				B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */,
+				B6BE001123F568AD009F6BDF /* Router.swift in Sources */,
+				B61F172323F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift in Sources */,
+				B61F172023F4F76900D9F484 /* TaxiService.swift in Sources */,
+				B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */,
+				B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */,
+				B6EE3CE223F4DDEE00BFD103 /* MainTaxiViewModel.swift in Sources */,
+				B6BE000A23F561B0009F6BDF /* DetailTaxiViewController.swift in Sources */,
+				B6EE3CDA23F4DD5700BFD103 /* MainTaxiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +726,7 @@
 		};
 		B6AEDDB423F4975700FE54F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -444,12 +739,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B6AEDDB523F4975700FE54F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,7 +758,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
