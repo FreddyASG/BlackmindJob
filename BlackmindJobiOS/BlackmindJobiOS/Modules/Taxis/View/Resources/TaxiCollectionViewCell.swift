@@ -10,15 +10,17 @@ import UIKit
 
 class TaxiCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var vinLabel: UILabel!
     
     static let reuseIdentifier = "TaxiCellId"
-    static let cellHeight: CGFloat = 80
-
+    static let cellHeight: CGFloat = 100
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        settingContainerView()
     }
 
     var taxi: Taxi? {
@@ -26,5 +28,9 @@ class TaxiCollectionViewCell: UICollectionViewCell {
             nameLabel.text = taxi?.name
             vinLabel.text = taxi?.vin
         }
+    }
+    
+    private func settingContainerView() {
+        containerView.layer.cornerRadius = 5
     }
 }

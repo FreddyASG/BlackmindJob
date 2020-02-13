@@ -12,11 +12,23 @@ import GoogleMaps
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window : UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         GMSServices.provideAPIKey("AIzaSyB_ElOvS-GV-V3ePf10oUKHvNK11PTGBVs")
+        
+        guard #available(iOS 13, *) else {
+            let window = UIWindow()
+            
+            self.window = window
+            window.makeKeyAndVisible()
+            
+            Router.presentMainTaxiVC()
+            
+            return true
+        }
+        
         
         return true
     }

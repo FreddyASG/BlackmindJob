@@ -17,13 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        let mainTaxiViewController = MainTaxiViewController(viewModel: MainTaxiViewModel())
-
-        let navigation = UINavigationController(rootViewController: mainTaxiViewController)
-        window.rootViewController = navigation
-
+        
         self.window = window
         window.makeKeyAndVisible()
+        
+        Router.presentMainTaxiVC()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -17,4 +17,14 @@ class Taxi: Decodable, Encodable {
     var interior: String?
     var name: String?
     var vin: String?
+    
+    var latitude: Double {
+        guard let latitude = coordinates?[1] else { return 0 }
+        return latitude
+    }
+    
+    var longitude: Double {
+        guard let longitude = coordinates?[0] else { return 0 }
+        return longitude
+    }
 }
