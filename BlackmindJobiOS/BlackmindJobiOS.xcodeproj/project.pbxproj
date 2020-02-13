@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */; };
 		B6AEDDA423F4975700FE54F9 /* BlackmindJobiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDA323F4975700FE54F9 /* BlackmindJobiOSTests.swift */; };
 		B6AEDDAF23F4975700FE54F9 /* BlackmindJobiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */; };
+		B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */; };
+		B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */; };
+		B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		B6AEDDAE23F4975700FE54F9 /* BlackmindJobiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackmindJobiOSUITests.swift; sourceTree = "<group>"; };
 		B6AEDDB023F4975700FE54F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.debug.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionServiceBJ.swift; sourceTree = "<group>"; };
+		B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsBJ.swift; sourceTree = "<group>"; };
+		B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequestBJ.swift; sourceTree = "<group>"; };
 		C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackmindJobiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,7 +93,6 @@
 				B6EDD5F99659382D02E185B6 /* Pods-BlackmindJobiOS.debug.xcconfig */,
 				4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +121,7 @@
 		B6AEDD8B23F4975500FE54F9 /* BlackmindJobiOS */ = {
 			isa = PBXGroup;
 			children = (
+				B6EE3CC223F4CD9300BFD103 /* Foundation */,
 				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
 				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
 				B6AEDD9023F4975500FE54F9 /* ViewController.swift */,
@@ -143,6 +149,48 @@
 				B6AEDDB023F4975700FE54F9 /* Info.plist */,
 			);
 			path = BlackmindJobiOSUITests;
+			sourceTree = "<group>";
+		};
+		B6EE3CC223F4CD9300BFD103 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CCA23F4D6A800BFD103 /* Model */,
+				B6EE3CC423F4CDB600BFD103 /* Settings */,
+				B6EE3CC323F4CDA900BFD103 /* Services */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B6EE3CC323F4CDA900BFD103 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B6EE3CC423F4CDB600BFD103 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CC523F4CDC500BFD103 /* Constants */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B6EE3CC523F4CDC500BFD103 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B6EE3CCA23F4D6A800BFD103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BEE070E7E213E3853F286875 /* Frameworks */ = {
@@ -329,8 +377,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */,
+				B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */,
 				B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */,
 				B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */,
+				B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */,
+				B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
