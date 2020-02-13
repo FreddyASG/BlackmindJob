@@ -10,7 +10,6 @@
 		1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */; };
 		B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */; };
 		B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */; };
-		B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD9023F4975500FE54F9 /* ViewController.swift */; };
 		B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9223F4975500FE54F9 /* Main.storyboard */; };
 		B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9523F4975700FE54F9 /* Assets.xcassets */; };
 		B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,12 @@
 		B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */; };
 		B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */; };
 		B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */; };
+		B6EE3CD023F4DBE600BFD103 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */; };
+		B6EE3CDA23F4DD5700BFD103 /* MainTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */; };
+		B6EE3CDB23F4DD5700BFD103 /* MainTaxiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */; };
+		B6EE3CDD23F4DDA300BFD103 /* TaxiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */; };
+		B6EE3CE023F4DDC400BFD103 /* Taxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */; };
+		B6EE3CE223F4DDEE00BFD103 /* MainTaxiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,6 @@
 		B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackmindJobiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B6AEDD9023F4975500FE54F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6AEDD9323F4975500FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6AEDD9523F4975700FE54F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6AEDD9823F4975700FE54F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +62,12 @@
 		B6EE3CC623F4CE1900BFD103 /* ConnectionServiceBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionServiceBJ.swift; sourceTree = "<group>"; };
 		B6EE3CC823F4CE8900BFD103 /* ConstantsBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsBJ.swift; sourceTree = "<group>"; };
 		B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequestBJ.swift; sourceTree = "<group>"; };
+		B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaxiViewController.swift; sourceTree = "<group>"; };
+		B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTaxiViewController.xib; sourceTree = "<group>"; };
+		B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiResponse.swift; sourceTree = "<group>"; };
+		B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taxi.swift; sourceTree = "<group>"; };
+		B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTaxiViewModel.swift; sourceTree = "<group>"; };
 		C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackmindJobiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,12 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				B6EE3CC223F4CD9300BFD103 /* Foundation */,
-				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
-				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
-				B6AEDD9023F4975500FE54F9 /* ViewController.swift */,
-				B6AEDD9223F4975500FE54F9 /* Main.storyboard */,
-				B6AEDD9523F4975700FE54F9 /* Assets.xcassets */,
-				B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */,
+				B6EE3CCD23F4DB9300BFD103 /* Resources */,
+				B6EE3CD123F4DC4A00BFD103 /* Main */,
+				B6EE3CD223F4DC7B00BFD103 /* Modules */,
 				B6AEDD9A23F4975700FE54F9 /* Info.plist */,
 			);
 			path = BlackmindJobiOS;
@@ -191,6 +198,94 @@
 				B6EE3CCB23F4D6CC00BFD103 /* ErrorRequestBJ.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B6EE3CCD23F4DB9300BFD103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CCE23F4DBAB00BFD103 /* UI */,
+				B6EE3CCF23F4DBE600BFD103 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B6EE3CCE23F4DBAB00BFD103 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD9523F4975700FE54F9 /* Assets.xcassets */,
+				B6AEDD9723F4975700FE54F9 /* LaunchScreen.storyboard */,
+				B6AEDD9223F4975500FE54F9 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B6EE3CD123F4DC4A00BFD103 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */,
+				B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B6EE3CD223F4DC7B00BFD103 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD323F4DCE300BFD103 /* Taxis */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B6EE3CD323F4DCE300BFD103 /* Taxis */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD723F4DD3200BFD103 /* Model */,
+				B6EE3CD623F4DD2300BFD103 /* ViewModel */,
+				B6EE3CD523F4DD1000BFD103 /* View */,
+				B6EE3CD423F4DCFC00BFD103 /* Controller */,
+			);
+			path = Taxis;
+			sourceTree = "<group>";
+		};
+		B6EE3CD423F4DCFC00BFD103 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD823F4DD5700BFD103 /* MainTaxiViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6EE3CD523F4DD1000BFD103 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6EE3CD623F4DD2300BFD103 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CE123F4DDEE00BFD103 /* MainTaxiViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B6EE3CD723F4DD3200BFD103 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CDF23F4DDC400BFD103 /* Taxi.swift */,
+				B6EE3CDE23F4DDA900BFD103 /* Response */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6EE3CDE23F4DDA900BFD103 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE3CDC23F4DDA300BFD103 /* TaxiResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		BEE070E7E213E3853F286875 /* Frameworks */ = {
@@ -308,8 +403,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */,
+				B6EE3CD023F4DBE600BFD103 /* Localizable.strings in Resources */,
 				B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */,
 				B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */,
+				B6EE3CDB23F4DD5700BFD103 /* MainTaxiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,12 +473,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6AEDD9123F4975500FE54F9 /* ViewController.swift in Sources */,
+				B6EE3CDD23F4DDA300BFD103 /* TaxiResponse.swift in Sources */,
 				B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */,
 				B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */,
+				B6EE3CE023F4DDC400BFD103 /* Taxi.swift in Sources */,
 				B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */,
 				B6EE3CCC23F4D6CC00BFD103 /* ErrorRequestBJ.swift in Sources */,
 				B6EE3CC923F4CE8900BFD103 /* ConstantsBJ.swift in Sources */,
+				B6EE3CE223F4DDEE00BFD103 /* MainTaxiViewModel.swift in Sources */,
+				B6EE3CDA23F4DD5700BFD103 /* MainTaxiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,7 +665,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -584,7 +684,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.freddyasg.BlackmindJobiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
