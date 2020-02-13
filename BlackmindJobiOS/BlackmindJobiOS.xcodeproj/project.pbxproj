@@ -10,6 +10,8 @@
 		1F4201BBC8CDD830EC65B575 /* Pods_BlackmindJobiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A2D4E06FBBFEE68C4A9A12 /* Pods_BlackmindJobiOS.framework */; };
 		B61F172023F4F76900D9F484 /* TaxiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F171F23F4F76900D9F484 /* TaxiService.swift */; };
 		B61F172323F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */; };
+		B61F172923F504F700D9F484 /* TaxiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */; };
+		B61F172A23F504F700D9F484 /* TaxiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */; };
 		B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */; };
 		B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */; };
 		B6AEDD9423F4975500FE54F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AEDD9223F4975500FE54F9 /* Main.storyboard */; };
@@ -49,6 +51,8 @@
 		4F7488189CE79F4494EFCF68 /* Pods-BlackmindJobiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackmindJobiOS.release.xcconfig"; path = "Target Support Files/Pods-BlackmindJobiOS/Pods-BlackmindJobiOS.release.xcconfig"; sourceTree = "<group>"; };
 		B61F171F23F4F76900D9F484 /* TaxiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiService.swift; sourceTree = "<group>"; };
 		B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+BlackmindJob.swift"; sourceTree = "<group>"; };
+		B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxiCollectionViewCell.swift; sourceTree = "<group>"; };
+		B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaxiCollectionViewCell.xib; sourceTree = "<group>"; };
 		B6AEDD8923F4975500FE54F9 /* BlackmindJobiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackmindJobiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6AEDD8C23F4975500FE54F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6AEDD8E23F4975500FE54F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +128,15 @@
 				B61F172223F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B61F172623F504A400D9F484 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B61F172723F504F700D9F484 /* TaxiCollectionViewCell.swift */,
+				B61F172823F504F700D9F484 /* TaxiCollectionViewCell.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B6AEDD8023F4975500FE54F9 = {
@@ -280,6 +293,7 @@
 		B6EE3CD523F4DD1000BFD103 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B61F172623F504A400D9F484 /* Resources */,
 				B6EE3CD923F4DD5700BFD103 /* MainTaxiViewController.xib */,
 			);
 			path = View;
@@ -424,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B61F172A23F504F700D9F484 /* TaxiCollectionViewCell.xib in Resources */,
 				B6AEDD9923F4975700FE54F9 /* LaunchScreen.storyboard in Resources */,
 				B6EE3CD023F4DBE600BFD103 /* Localizable.strings in Resources */,
 				B6AEDD9623F4975700FE54F9 /* Assets.xcassets in Resources */,
@@ -499,6 +514,7 @@
 				B6EE3CC723F4CE1900BFD103 /* ConnectionServiceBJ.swift in Sources */,
 				B6AEDD8D23F4975500FE54F9 /* AppDelegate.swift in Sources */,
 				B6EE3CE023F4DDC400BFD103 /* Taxi.swift in Sources */,
+				B61F172923F504F700D9F484 /* TaxiCollectionViewCell.swift in Sources */,
 				B6AEDD8F23F4975500FE54F9 /* SceneDelegate.swift in Sources */,
 				B61F172323F4F90200D9F484 /* JSONDecoder+BlackmindJob.swift in Sources */,
 				B61F172023F4F76900D9F484 /* TaxiService.swift in Sources */,
